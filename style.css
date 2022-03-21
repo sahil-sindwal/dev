@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar {
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+/*****************brand logo work ******************/
+.brand {
+    border: 2px solid;
+    margin-left: 3rem;
+    
+   
+}
+.brand a {
+    font-size: 2rem;
+    color: rgb(39, 236, 98);
+}
+
+.colorfull_dev {
+    color: red;
+}
+
+.colorfull_dev1 {
+    color: rgb(36, 218, 250);
+}
+
+/*****************navbar list work ******************/
+.list {
+    border: 2px solid;
+    display: inline-block;
+    list-style: none;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    
+}
+
+.items {
+    margin:  0.5rem 1.3rem 0.5rem ;
+    align-items: center;
+    display: inline-block;
+    
+    
+}
+
+.links {
+   font-size: 1.3rem;
+   text-decoration: none;
+   color: white;
+   padding: 0.4rem 1.8rem;
+   border-radius: 0 15px ;
+  
+   
+}
+
+.links:hover {
+    background-color:  rgb(39, 236, 98);
+
+}
+
+
+/*****************my profile work ******************/
+.profile {
+    text-align: center;
+    background-color: #000;
+    opacity: 0.9;
+    
+}
+.profile a {
+    display: block;
+    font-size: 4rem;
+    text-decoration: none;
+    padding-top: 5rem;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    color: #fff;
+   
+}
+
+.profile p {
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    color: #fff;
+    padding-bottom:3rem ;
+}
